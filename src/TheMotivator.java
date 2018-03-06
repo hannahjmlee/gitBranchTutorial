@@ -18,5 +18,8 @@ public class TheMotivator {
 		
 		TheMotivator tm1 = new TheMotivator();
 		tm1.feedback(80);
+		
+		TheMotivator tm2 = new TheMotivator();
+		tm2.feedback(90);
 	}
 }
