@@ -10,9 +10,16 @@ public class TheMotivator {
 			System.out.println("Well, what can I say?");
 		else
 			System.out.println("You suck");
+		
 	}
 	public static void main(String[] args) {
 		TheMotivator tm = new TheMotivator();
 		tm.feedback(60);
+		
+		TheMotivator tm1 = new TheMotivator();
+		tm1.feedback(80);
+		
+		TheMotivator tm2 = new TheMotivator();
+		tm2.feedback(90);
 	}
 }
